@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress-Bar</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="parent">
+        <div class="circle">
+          <div class="outer">
+          </div>
+          <div class="inner">0%</div>
+        </div>
+
+        <div class="progress-bar">
+          <div class="horizontal-bar">0%</div>
+        </div>
+
+        <button class="btn">Order Now</button>
+      </div>
+    </section>
+
+    <div class="popup">
+      <div class="pop-img">
+        <img src="check.png" alt="" />
+      </div>
+      <h2>THANK YOU!</h2>
+      <p>
+        Your order placed successfully <span></span> It will arrive you soon.
+      </p>
+      <button class="popup-btn" onclick="window.location.reload();">OK</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
